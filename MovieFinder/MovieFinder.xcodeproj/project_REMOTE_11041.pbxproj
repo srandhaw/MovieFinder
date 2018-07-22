@@ -16,12 +16,6 @@
 		C7CC00C8210482550055622C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CC00C7210482550055622C /* Constants.swift */; };
 		C7CC00CB210483AE0055622C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CC00CA210483AE0055622C /* DataService.swift */; };
 		CCB8A791D6703B15425707EC /* Pods_MovieFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2437564D9E391C34BE6423CF /* Pods_MovieFinder.framework */; };
-		D5CA60E52104846F00431869 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CA60E42104846F00431869 /* MovieTableViewCell.swift */; };
-		D5CA60E7210484D500431869 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CA60E6210484D500431869 /* MovieCollectionViewCell.swift */; };
-		D5CA60F42104883C00431869 /* mario2.png in Resources */ = {isa = PBXBuildFile; fileRef = D5CA60F02104883B00431869 /* mario2.png */; };
-		D5CA60F52104883C00431869 /* mario4.png in Resources */ = {isa = PBXBuildFile; fileRef = D5CA60F12104883B00431869 /* mario4.png */; };
-		D5CA60F62104883C00431869 /* mario1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5CA60F22104883B00431869 /* mario1.jpg */; };
-		D5CA60F72104883C00431869 /* mario3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D5CA60F32104883B00431869 /* mario3.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,16 +30,7 @@
 		C76FE23A2104760300A50040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C76FE23C2104760300A50040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7CC00C7210482550055622C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
-		D5CA60E42104846F00431869 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
-		D5CA60E6210484D500431869 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
-		D5CA60F02104883B00431869 /* mario2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mario2.png; sourceTree = "<group>"; };
-		D5CA60F12104883B00431869 /* mario4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mario4.png; sourceTree = "<group>"; };
-		D5CA60F22104883B00431869 /* mario1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mario1.jpg; sourceTree = "<group>"; };
-		D5CA60F32104883B00431869 /* mario3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mario3.jpeg; sourceTree = "<group>"; };
-=======
 		C7CC00CA210483AE0055622C /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
->>>>>>> 53608568a79b7d849a5588c94ebaa799e2052f86
 		E081187D1C792DAB7A7F22B1 /* Pods-MovieFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-MovieFinder/Pods-MovieFinder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,13 +91,7 @@
 				C7CC00C3210482130055622C /* View */,
 				C7CC00C2210481FE0055622C /* Controller */,
 				C76FE2342104760300A50040 /* Main.storyboard */,
-				D5CA60E6210484D500431869 /* MovieCollectionViewCell.swift */,
-				D5CA60E42104846F00431869 /* MovieTableViewCell.swift */,
 				C76FE22E2104760200A50040 /* AppDelegate.swift */,
-				D5CA60F22104883B00431869 /* mario1.jpg */,
-				D5CA60F02104883B00431869 /* mario2.png */,
-				D5CA60F32104883B00431869 /* mario3.jpeg */,
-				D5CA60F12104883B00431869 /* mario4.png */,
 				C76FE2372104760300A50040 /* Assets.xcassets */,
 				C76FE2392104760300A50040 /* LaunchScreen.storyboard */,
 				C76FE23C2104760300A50040 /* Info.plist */,
@@ -228,12 +207,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C76FE23B2104760300A50040 /* LaunchScreen.storyboard in Resources */,
-				D5CA60F52104883C00431869 /* mario4.png in Resources */,
 				C76FE2382104760300A50040 /* Assets.xcassets in Resources */,
 				C76FE2362104760300A50040 /* Main.storyboard in Resources */,
-				D5CA60F62104883C00431869 /* mario1.jpg in Resources */,
-				D5CA60F72104883C00431869 /* mario3.jpeg in Resources */,
-				D5CA60F42104883C00431869 /* mario2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,10 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5CA60E52104846F00431869 /* MovieTableViewCell.swift in Sources */,
 				C76FE2332104760300A50040 /* SecondViewController.swift in Sources */,
 				C76FE22F2104760200A50040 /* AppDelegate.swift in Sources */,
-				D5CA60E7210484D500431869 /* MovieCollectionViewCell.swift in Sources */,
 				C76FE2312104760300A50040 /* FirstViewController.swift in Sources */,
 				C7CC00C8210482550055622C /* Constants.swift in Sources */,
 				C7CC00CB210483AE0055622C /* DataService.swift in Sources */,

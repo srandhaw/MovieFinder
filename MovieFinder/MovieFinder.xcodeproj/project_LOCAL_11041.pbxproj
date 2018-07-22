@@ -14,7 +14,6 @@
 		C76FE2382104760300A50040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C76FE2372104760300A50040 /* Assets.xcassets */; };
 		C76FE23B2104760300A50040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76FE2392104760300A50040 /* LaunchScreen.storyboard */; };
 		C7CC00C8210482550055622C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CC00C7210482550055622C /* Constants.swift */; };
-		C7CC00CB210483AE0055622C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CC00CA210483AE0055622C /* DataService.swift */; };
 		CCB8A791D6703B15425707EC /* Pods_MovieFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2437564D9E391C34BE6423CF /* Pods_MovieFinder.framework */; };
 		D5CA60E52104846F00431869 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CA60E42104846F00431869 /* MovieTableViewCell.swift */; };
 		D5CA60E7210484D500431869 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CA60E6210484D500431869 /* MovieCollectionViewCell.swift */; };
@@ -36,16 +35,12 @@
 		C76FE23A2104760300A50040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C76FE23C2104760300A50040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7CC00C7210482550055622C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		D5CA60E42104846F00431869 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		D5CA60E6210484D500431869 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 		D5CA60F02104883B00431869 /* mario2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mario2.png; sourceTree = "<group>"; };
 		D5CA60F12104883B00431869 /* mario4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mario4.png; sourceTree = "<group>"; };
 		D5CA60F22104883B00431869 /* mario1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mario1.jpg; sourceTree = "<group>"; };
 		D5CA60F32104883B00431869 /* mario3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mario3.jpeg; sourceTree = "<group>"; };
-=======
-		C7CC00CA210483AE0055622C /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
->>>>>>> 53608568a79b7d849a5588c94ebaa799e2052f86
 		E081187D1C792DAB7A7F22B1 /* Pods-MovieFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-MovieFinder/Pods-MovieFinder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,7 +149,6 @@
 		C7CC00C62104823C0055622C /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				C7CC00CA210483AE0055622C /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -178,6 +172,7 @@
 				C76FE2282104760200A50040 /* Frameworks */,
 				C76FE2292104760200A50040 /* Resources */,
 				B11F6152A9944DAE37EA49B8 /* [CP] Embed Pods Frameworks */,
+				3C3867B15906BF06DDBC47B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,6 +235,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3C3867B15906BF06DDBC47B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MovieFinder/Pods-MovieFinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B11F6152A9944DAE37EA49B8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,13 +259,11 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-MovieFinder/Pods-MovieFinder-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -293,7 +301,6 @@
 				D5CA60E7210484D500431869 /* MovieCollectionViewCell.swift in Sources */,
 				C76FE2312104760300A50040 /* FirstViewController.swift in Sources */,
 				C7CC00C8210482550055622C /* Constants.swift in Sources */,
-				C7CC00CB210483AE0055622C /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
