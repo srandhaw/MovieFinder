@@ -13,6 +13,7 @@
 		C76FE2362104760300A50040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76FE2342104760300A50040 /* Main.storyboard */; };
 		C76FE2382104760300A50040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C76FE2372104760300A50040 /* Assets.xcassets */; };
 		C76FE23B2104760300A50040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76FE2392104760300A50040 /* LaunchScreen.storyboard */; };
+		C7CC00C8210482550055622C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CC00C7210482550055622C /* Constants.swift */; };
 		CCB8A791D6703B15425707EC /* Pods_MovieFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2437564D9E391C34BE6423CF /* Pods_MovieFinder.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		C76FE2372104760300A50040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C76FE23A2104760300A50040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C76FE23C2104760300A50040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7CC00C7210482550055622C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E081187D1C792DAB7A7F22B1 /* Pods-MovieFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-MovieFinder/Pods-MovieFinder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,15 +82,64 @@
 		C76FE22D2104760200A50040 /* MovieFinder */ = {
 			isa = PBXGroup;
 			children = (
-				C76FE22E2104760200A50040 /* AppDelegate.swift */,
-				C76FE2302104760300A50040 /* FirstViewController.swift */,
-				C76FE2322104760300A50040 /* SecondViewController.swift */,
+				C7CC00C9210482870055622C /* Extensions */,
+				C7CC00C62104823C0055622C /* Services */,
+				C7CC00C5210482260055622C /* Utilities */,
+				C7CC00C42104821D0055622C /* Model */,
+				C7CC00C3210482130055622C /* View */,
+				C7CC00C2210481FE0055622C /* Controller */,
 				C76FE2342104760300A50040 /* Main.storyboard */,
+				C76FE22E2104760200A50040 /* AppDelegate.swift */,
 				C76FE2372104760300A50040 /* Assets.xcassets */,
 				C76FE2392104760300A50040 /* LaunchScreen.storyboard */,
 				C76FE23C2104760300A50040 /* Info.plist */,
 			);
 			path = MovieFinder;
+			sourceTree = "<group>";
+		};
+		C7CC00C2210481FE0055622C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C76FE2302104760300A50040 /* FirstViewController.swift */,
+				C76FE2322104760300A50040 /* SecondViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C7CC00C3210482130055622C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7CC00C42104821D0055622C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7CC00C5210482260055622C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C7CC00C7210482550055622C /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C7CC00C62104823C0055622C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C7CC00C9210482870055622C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +276,7 @@
 				C76FE2332104760300A50040 /* SecondViewController.swift in Sources */,
 				C76FE22F2104760200A50040 /* AppDelegate.swift in Sources */,
 				C76FE2312104760300A50040 /* FirstViewController.swift in Sources */,
+				C7CC00C8210482550055622C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
